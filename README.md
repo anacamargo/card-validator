@@ -1,4 +1,6 @@
 # Validador de cartão de crédito
+Projeto proposto pela Laboratoria durante o bootcamp de 2019.
+
 Esta biblioteca deverá validar o número do cartão de crédito (usando algoritmo de Luhn) e retornar true ou false de acordo com o caso.
 
 ## Como instalar:
