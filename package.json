@@ -1,6 +1,6 @@
 {
   "name": "gtech-card-validator",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Biblioteca que deverá validar o número do cartão de crédito (usando algoritmo de Luhn) e retornar true ou false de acordo com o caso.",
   "main": "index.js",
   "scripts": {
