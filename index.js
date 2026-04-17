@@ -2,10 +2,9 @@ function cardValidator(number) {
   const regex =
     /([0-9]{4}\s?[0-9]{4}\s?[0-9]{4}\s?[0-9]{3}|[0-9]{4}\s?[0-9]{6}\s?[0-9]{3,4})([0-9])/g;
   const match = regex.exec(number);
-
   if (match !== null && match.input === match[0]) {
     const cardNumberWithoutValidationDigit = match[1];
-    const arr = cardNumberWithoutValidationDigit.split(" ").join("").split("");
+    const arr = cardNumberWithoutValidationDigit.split(' ').join('').split('');
     const arrReverse = arr.reverse();
     const partialCardNumber = arrReverse.map((char) => parseInt(char));
     const validatedDigit = validateDigit(partialCardNumber);
