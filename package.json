@@ -4,18 +4,16 @@
   "description": "Biblioteca que deverá validar o número do cartão de crédito (usando algoritmo de Luhn) e retornar true ou false de acordo com o caso.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "lint:check": "eslint . --max-warnings 0"
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "chai": "^6.2.2",
     "eslint": "^9.39.4",
-    "globals": "^17.5.0",
-    "mocha": "^11.7.5",
-    "nyc": "^18.0.0"
+    "eslint-plugin-jest": "^28.14.0",
+    "jest": "^29.7.0"
   },
   "repository": {
     "type": "git",
